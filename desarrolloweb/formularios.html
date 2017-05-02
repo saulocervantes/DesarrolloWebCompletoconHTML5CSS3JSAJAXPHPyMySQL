@@ -7,15 +7,15 @@
 <body>
   <h2>Creando formularios</h2>
 
-  <form class="formulario">
+  <form class="formulario" novalidate>
     <fieldset>
       <legend>Tus datos</legend>
       <label for="nombre">Nombre</label>
-      <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+      <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required>
 
       <br><br>
       <label for="apellido">Apellido</label>
-      <input type="text" name="apellido" id="apellido" placeholder="Tu Apellido">
+      <input type="text" name="apellido" id="apellido" placeholder="Tu Apellido" required>
 
       <br><br>
       <label for="sexo">Sexo</label>
@@ -30,7 +30,7 @@
 
       <br><br>
       <label for="">Correo electrónico</label>
-      <input type="email" name="email" placeholder="correo@dominio.com">
+      <input type="email" name="email" placeholder="correo@dominio.com" required>
 
       <br><br>
       <label for="">Tu sitio web:</label>
@@ -93,7 +93,7 @@
       <label for="">Usuario:</label><br>
       <input type="text" name="usuario" placeholder="Usuario"> <br>
       <label for="">Password:</label><br>
-      <input type="password" name="password" placeholder="Contraseña"> <br>
+      <input type="password" name="password" placeholder="Contraseña" required> <br>
 
     </fieldset>
 
