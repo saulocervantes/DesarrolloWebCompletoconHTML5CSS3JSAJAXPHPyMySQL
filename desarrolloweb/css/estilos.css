@@ -1,3 +1,7 @@
-h2{
-  /*color: blue;*/
+#titulo{
+  color: red;
+}
+
+#logo{
+  margin-top: 200px;
 }
